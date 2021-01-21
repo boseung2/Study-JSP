@@ -60,26 +60,9 @@ redirect - 요청을 두번 (첫번째는 다른페이지를 알려줌 그럼 �
 * 세션영역 - 사용자마자 하나씩 유지(ex로그인정보 로그아웃이나 타임아웃될때까지)
 
 
-* 포함    
-> jsp:include   
-> @include   
-> 자동포함 (web.xml) - 스프링에선 aop(aspect oriented programming) 자동으로 코드포함시켜줌 단 앞,뒤만 자동이기때문
+* 포함 
+1. jsp:include
+2. @include
+3. 자동포함 (web.xml) - 스프링에선 aop(aspect oriented programming) 자동으로 코드포함시켜줌 단 앞,뒤만 자동이기때문
 
-
-* JSP 간편히 바뀐것들   
-<%%> -> jstl
-<%=%> -> el
-
-
-* jspf  - f는(fragment) 코드조각 일부분을 include할때확장자
-
-
-* github remote하고 왜 push안되었지..
-```
-git init
-git add .
-git commit -m "message"
-git remote add origin "address"
-git push -u origin master
-```
 
